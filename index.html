@@ -78,8 +78,8 @@
         </p>
         <div id="galeria">
           <img src="http://fegemo.github.io/cefet-web/images/osiris/01-modelo-artistico-da-sonda.webp" id="slide">
-          <button id="anterior" class="navegar">Anterior</button>
-          <button id="proximo" class="navegar">Próximo</button>
+          <button id="anterior" class="navegar" onclick="Gallery.handleSlide('-')">Anterior</button>
+          <button id="proximo" class="navegar"  onclick="Gallery.handleSlide('+')">Próximo</button>
         </div>
       </article>
 
@@ -166,5 +166,6 @@
 
 
     <script src="exercicio1.js"></script>
+    <script src="exercicio2.js"></script>
   </body>
 </html>
